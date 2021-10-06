@@ -20,6 +20,8 @@ set(RPC_LIB_PATH "${PROJECT_SOURCE_DIR}/rpc-install/lib")
 include_directories(${RPC_INCLUDE})
 link_directories(${RPC_LIB_PATH})
 
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src/)
+
 list(APPEND SERVER_TEST_SRCS
         ${CMAKE_CURRENT_SOURCE_DIR}/src/server_test.cpp
 )
