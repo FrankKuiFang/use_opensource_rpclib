@@ -5,17 +5,7 @@ Construce a project based on https://github.com/rpclib/rpclib
 
 ## code
 
-.
-├── build.sh
-├── CMakeLists.txt
-├── DownloadRpc_build_make.sh
-├── DownloadRpc_build_ninja.sh
-├── README.md
-└── src/
-    ├── client_test.cpp
-    └── server_test.cpp
-
-
+![Screenshot from 2021-08-13 13-55-29](./pic/Screenshot from 2021-08-13 13-55-29.png)
 
 ## How to build and run on linux:
 
