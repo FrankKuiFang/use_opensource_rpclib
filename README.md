@@ -5,7 +5,7 @@ Construce a project based on https://github.com/rpclib/rpclib.  http://rpclib.ne
 
 ## code
 
-![treefile](/home/tusimple/Documents/Fang/myProj/use_opensource_rpclib/pic/treefile.png)
+![treefile](./pic/treefile.png)
 
 ## How to build and run on linux:
 
