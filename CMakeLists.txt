@@ -1,7 +1,7 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.4.0)
 project(test_rpc)
 
-## Compile as C++11, supported in ROS Kinetic and newer
+
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 14)
 
@@ -29,10 +29,11 @@ add_executable(server_test  ${SERVER_TEST_SRCS})
 
 target_link_libraries(server_test librpc.a)
 
-#install(TARGETS vehicle_model
+#install(TARGETS server_test
 #        DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/build/bin
 #       )
 
+# install to CMAKE_INSTALL_PREFIX/my_bin, CMAKE_INSTALL_PREFIX is setted in build.sh as CMake's input param.
 install(TARGETS server_test
         DESTINATION my_bin
        )
